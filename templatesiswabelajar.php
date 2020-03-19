@@ -1,34 +1,43 @@
 <?php
 
-    $siswa = [
-        [
-            "Nama" => "Rizal",
-            "Jenis_Kelamin" => "Laki-laki",
-            "No_HP" => "8123456",
-            "Email" => "rizal@gmail.com",
-            "Pendidikan_Terakhir" => "S1",
-            "Alamat" => "Cipondoh",
-            "img" => "t3.jpg"
-        ],
-        [
-            "Nama" => "Wachid",
-            "Jenis_Kelamin" => "Laki-laki",
-            "No_HP" => "8123457",
-            "Email" => "wachid@gmail.com",
-            "Pendidikan_Terakhir" => "S1",
-            "Alamat" => "Cengkareng",
-            "img" => "t2.jpg"
-        ],
-        [
-            "Nama" => "Fadjar",
-            "Jenis_Kelamin" => "Laki-laki",
-            "No_HP" => "8123458",
-            "Email" => "fadjar@gmail.com",
-            "Pendidikan_Terakhir" => "SMK",
-            "Alamat" => "Pademangan",
-            "img" => "t1.jpg"
-        ]
-    ];
+$siswa = [
+    [
+        "Nama" => "Rizal",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123456",
+        "Email" => "rizal@gmail.com",
+        "Pendidikan_Terakhir" => "S1",
+        "Alamat" => "Cipondoh",
+        "img" => "t3.jpg"
+    ],
+    [
+        "Nama" => "Wachid",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123457",
+        "Email" => "wachid@gmail.com",
+        "Pendidikan_Terakhir" => "S1",
+        "Alamat" => "Cengkareng",
+        "img" => "t2.jpg"
+    ],
+    [
+        "Nama" => "Fadjar",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123458",
+        "Email" => "fadjar@gmail.com",
+        "Pendidikan_Terakhir" => "SMK",
+        "Alamat" => "Pademangan",
+        "img" => "t1.jpg"
+    ],
+    [
+        "Nama" => "Riyan",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123458",
+        "Email" => "riyan@gmail.com",
+        "Pendidikan_Terakhir" => "STM",
+        "Alamat" => "Srengseng",
+        "img" => "t1.jpg"
+    ]
+];
 
 ?>
 
@@ -85,7 +94,7 @@
             <div class="col-sm-4">
                 <table class="table table-bordered table-dark">
                     <tbody>
-                        <?php foreach($siswa as $tampilsiswa) : ?>
+                        <?php foreach ($siswa as $tampilsiswa) : ?>
                             <tr>
                                 <td class="text-center">Nama Siswa : <a href="isisiswabelajar.php?Nama=<?php echo $tampilsiswa["Nama"]; ?>&Jenis_Kelamin=<?= $tampilsiswa["Jenis_Kelamin"] ?>&No_HP=<?= $tampilsiswa["No_HP"] ?>&Email=<?= $tampilsiswa["Email"] ?>&Pendidikan_Terakhir=<?= $tampilsiswa["Pendidikan_Terakhir"] ?>&Alamat=<?= $tampilsiswa["Alamat"] ?>&img=<?= $tampilsiswa["img"] ?>"><?= $tampilsiswa["Nama"] ?></a></td>
                             </tr>
