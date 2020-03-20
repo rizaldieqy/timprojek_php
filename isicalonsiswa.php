@@ -1,10 +1,10 @@
 <?php 
 $calonsiswa = [
-    ["Anton", "antonuhuy@gmail.com", 081278045, "Laki-Laki", "S1", "Tidak", "Hanya Ingin Belajar Programming", "Tidak", "Full-Stack Developer Mon-Fri 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
-    ["Maya", "mayaa013@gmail.com", 081275904, "Perempuan", "D3", "Freelance", "Ingin Belajar Programming & Segera Bekerja", "Ya", "Full-Stack Developer Sat 9AM-6PM", "Senin Antara Jam 13.00-17.00"],
-    ["Rheza", "rhezaaja@gmail.com", 08129870, "Laki-Laki", "S1", "Tidak", "Ingin Belajar Programming & Segera Bekerja", "Tidak", "Full-Stack Developer Mon-Fri 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
-    ["Jamal", "jamalamal@gmail.com", 08129982, "Laki-Laki", "SMA", "Tidak", "Hanya Ingin Belajar Programming", "Tidak", "Full-Stack Developer Sat 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
-    ["Kurnia", "kurniaayu@gmail.com", 08125098, "Perempuan", "S1", "Tidak", "Ingin Belajar Programming & Segera Bekerja", "Ya", "Full-Stack Developer Mon-Fri 9AM-6PM", "Sabtu Jam 10.00-12.00"],
+    ["Anton", "antonuhuy@gmail.com", "081278045", "Laki-Laki", "S1", "Tidak", "Hanya Ingin Belajar Programming", "Tidak", "Full-Stack Developer Mon-Fri 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
+    ["Maya", "mayaa013@gmail.com", "081275904", "Perempuan", "D3", "Freelance", "Ingin Belajar Programming & Segera Bekerja", "Ya", "Full-Stack Developer Sat 9AM-6PM", "Senin Antara Jam 13.00-17.00"],
+    ["Rheza", "rhezaaja@gmail.com", "08129870", "Laki-Laki", "S1", "Tidak", "Ingin Belajar Programming & Segera Bekerja", "Tidak", "Full-Stack Developer Mon-Fri 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
+    ["Jamal", "jamalamal@gmail.com", "08129982", "Laki-Laki", "SMA", "Tidak", "Hanya Ingin Belajar Programming", "Tidak", "Full-Stack Developer Sat 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
+    ["Kurnia", "kurniaayu@gmail.com", "08125098", "Perempuan", "S1", "Tidak", "Ingin Belajar Programming & Segera Bekerja", "Ya", "Full-Stack Developer Mon-Fri 9AM-6PM", "Sabtu Jam 10.00-12.00"],
 ];
 
 ?>
