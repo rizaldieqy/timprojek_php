@@ -1,11 +1,44 @@
 <?php
 
 $siswa = [
-    ["Rizal", "Laki-laki", "8123456", "rizal@gmail.com", "S1", "Cipondoh", "t3.jpg"],
-    ["Wachid", "Laki-laki", "8123457", "wachid@gmail.com", "S1", "Cengkareng", "t2.jpg"],
-    ["Fadjar", "Laki-laki", "8123458", "fadjar@gmail.com", "SMK", "Pademangan", "t1.jpg"],
-    ["Riyan", "Laki-laki", "8123458", "riyan@gmail.com", "STM", "Srengseng", "t1.jpg"],
+    [
+        "Nama" => "Rizal",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123456",
+        "Email" => "rizal@gmail.com",
+        "Pendidikan_Terakhir" => "S1",
+        "Alamat" => "Cipondoh",
+        "img" => "t3.jpg"
+    ],
+    [
+        "Nama" => "Wachid",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123457",
+        "Email" => "wachid@gmail.com",
+        "Pendidikan_Terakhir" => "S1",
+        "Alamat" => "Cengkareng",
+        "img" => "t2.jpg"
+    ],
+    [
+        "Nama" => "Fadjar",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123458",
+        "Email" => "fadjar@gmail.com",
+        "Pendidikan_Terakhir" => "SMK",
+        "Alamat" => "Pademangan",
+        "img" => "t1.jpg"
+    ],
+    [
+        "Nama" => "Riyan",
+        "Jenis_Kelamin" => "Laki-laki",
+        "No_HP" => "8123458",
+        "Email" => "riyan@gmail.com",
+        "Pendidikan_Terakhir" => "STM",
+        "Alamat" => "Srengseng",
+        "img" => "t1.jpg"
+    ]
 ];
+
 ?>
 
 <!DOCTYPE html>
