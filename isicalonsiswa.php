@@ -1,10 +1,10 @@
 <?php 
-$siswa = [
-    [15786, "Anton", "Akuntansi", 19000, "ciledug"],
-    [15643, "Jamal", "Administrasi", 13000, "cikokol"],
-    [12789, "Sisca", "Akuntansi", 15000, "cipondoh"],
-    [12985, "Amel", "Konsultan", 20000, "ciledug"],
-    [13298, "Yoga", "Front Office", 12000, "cikokol"],
+$calonsiswa = [
+    ["Anton", "antonuhuy@gmail.com", 081278045, "Laki-Laki", "S1", "Tidak", "Hanya Ingin Belajar Programming", "Tidak", "Full-Stack Developer Mon-Fri 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
+    ["Maya", "mayaa013@gmail.com", 081275904, "Perempuan", "D3", "Freelance", "Ingin Belajar Programming & Segera Bekerja", "Ya", "Full-Stack Developer Sat 9AM-6PM", "Senin Antara Jam 13.00-17.00"],
+    ["Rheza", "rhezaaja@gmail.com", 08129870, "Laki-Laki", "S1", "Tidak", "Ingin Belajar Programming & Segera Bekerja", "Tidak", "Full-Stack Developer Mon-Fri 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
+    ["Jamal", "jamalamal@gmail.com", 08129982, "Laki-Laki", "SMA", "Tidak", "Hanya Ingin Belajar Programming", "Tidak", "Full-Stack Developer Sat 9AM-6PM", "Selasa-Jumat Antara Jam 10.00-17.00"],
+    ["Kurnia", "kurniaayu@gmail.com", 08125098, "Perempuan", "S1", "Tidak", "Ingin Belajar Programming & Segera Bekerja", "Ya", "Full-Stack Developer Mon-Fri 9AM-6PM", "Sabtu Jam 10.00-12.00"],
 ];
 
 ?>
@@ -22,21 +22,31 @@ $siswa = [
 <table>
         <thead>
             <tr>
-                <th scope="col">NIM</th>
-                <th scope="col">Nama</th>
-                <th scope="col">Profesi</th>
-                <th scope="col">Gaji</th>
-                <th scope="col">Alamat</th>
+                <th scope="col">Nama Lengkap</th>
+                <th scope="col">Email</th>
+                <th scope="col">No. Telepon</th>
+                <th scope="col">Jenis Kelamin</th>
+                <th scope="col">Pendidikan Terakhir</th>
+                <th scope="col">Apa Anda Bekerja?</th>
+                <th scope="col">Alasan Mengikuti Edu-Tech</th>
+                <th scope="col">Memiliki Skill Programming</th>
+                <th scope="col">Program Edutech Yang Akan Diikuti</th>
+                <th scope="col">Hadir Untuk Interview</th>
             </tr>
         </thead>
         <tbody>
-                <?php foreach ($siswa as $sis) : ?>
+                <?php foreach ($calonsiswa as $siswa) : ?>
                 <tr>
-                    <td><?= $sis[0] ; ?></td>
-                    <td><?= $sis[1] ; ?></td>
-                    <td><?= $sis[2] ; ?></td>
-                    <td><?= $sis[3] ; ?></td>
-                    <td><?= $sis[4] ; ?></td>
+                    <td><?= $siswa[0] ; ?></td>
+                    <td><?= $siswa[1] ; ?></td>
+                    <td><?= $siswa[2] ; ?></td>
+                    <td><?= $siswa[3] ; ?></td>
+                    <td><?= $siswa[4] ; ?></td>
+                    <td><?= $siswa[5] ; ?></td>
+                    <td><?= $siswa[6] ; ?></td>
+                    <td><?= $siswa[7] ; ?></td>
+                    <td><?= $siswa[8] ; ?></td>
+                    <td><?= $siswa[9] ; ?></td>
                 </tr>
                 <?php endforeach ; ?>
         </tbody>
