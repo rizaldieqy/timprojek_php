@@ -182,7 +182,7 @@
 <script>
     function tekan(){
         alert("Pendaftaran Berhasil");
-        window.location.href="isicalonsiswa.php"
+        window.location.href="../isicalonsiswa.php"
     }
 </script>
 </body>
